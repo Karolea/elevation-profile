@@ -16,3 +16,7 @@ Following parameters are adjustable:
   •	intervals between interpolation nodes – defined in int intervals[4] array
   
 By default 4 sets of values are generated for one method – each set created with different number of interpolation nodes.
+  
+  A:
+  hhh
+  jjj
