@@ -5,7 +5,7 @@ This program performs elevation profile approximation using two interpolation me
 As an input program takes text file describing elevation profile of some route. The file contains rows with data in the form of: _distance_\<space\>_height_, e.g.: _1.43_ _17.2_
 
 From the input a given number of reference samples is taken. Then, from among those samples, the program chooses a given number of interpolation nodes. Based on interpolation nodes, the set of new (approximated) values is generated.
-Results are saved into text file, similar to that containing input. The additional Python script uses those results to generate graphs showing the original and the approximated routes.
+\nResults are saved into text file, similar to that containing input. The additional Python script uses those results to generate graphs showing the original and the approximated routes.
   
 Following parameters are adjustable:
   * number of reference samples (rows) taken from the input file – defined by `#define SAMPLES`
