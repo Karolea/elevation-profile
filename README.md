@@ -11,8 +11,8 @@ From the input a given number of reference samples is taken. Then, from among th
 Results are saved into text file, similar to that containing input. The additional Python script uses those results to generate graphs showing the original and the approximated routes.
   
 Following parameters are adjustable:
-  •	number of reference samples (rows) taken from the input file – defined by #define SAMPLES
-  •	input files – paths to the files are stored in const char* data_sets[4]; data must answer the description introduced above
-  •	intervals between interpolation nodes – defined in int intervals[4] array
+   •	number of reference samples (rows) taken from the input file – defined by #define SAMPLES
+   •	input files – paths to the files are stored in const char* data_sets[4]; data must answer the description introduced above
+   •	intervals between interpolation nodes – defined in int intervals[4] array
   
 By default 4 sets of values are generated for one method – each set created with different number of interpolation nodes.
