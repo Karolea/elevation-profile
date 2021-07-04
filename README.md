@@ -2,9 +2,13 @@
 
 This program performs elevation profile approximation using two interpolation methods – Lagrange and spline – and allows making a cursory comparison, taking processing time and result accuracy into account.
 
-As an input program takes text file describing elevation profile of some route. The file contains rows with data in the form of: _distance_\<space\>_height_, e.g.: _1.43_ _17.2_
+As an input program takes text file describing elevation profile of some route. The file contains rows with data in the form of: _distance_\<space\>_height_, e.g.: 
 
-From the input a given number of reference samples is taken. Then, from among those samples, the program chooses a given number of interpolation nodes. Based on interpolation nodes, the set of new (approximated) values is generated.
+_1.43_ _17.2_  
+_2.11_ _16.68_  
+_2.5_ _16.94_
+
+From the input a given number of reference samples is taken. Then, from among those samples, the program chooses a given number of interpolation nodes. Based on interpolation nodes, the set of new (approximated) values is generated.  
 Results are saved into text file, similar to that containing input. The additional Python script uses those results to generate graphs showing the original and the approximated routes.
   
 Following parameters are adjustable:
